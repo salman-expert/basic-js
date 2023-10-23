@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: #610C9F;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    padding: 10px 0px;
+}
+h1{
+    display: none;
+}
+p{
+    display: none;
+}
+
+.hm{
+    display: block;
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+}

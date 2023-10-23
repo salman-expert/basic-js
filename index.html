@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button>click to see magic</button>
+    <h1>lorenfa-rotate-180</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nihil ipsa quaerat soluta, corporis inventore. Pariatur, error! Quisquam libero eius obcaecati ipsum veritatis, itaque quidem dolores nihil ad, eveniet ducimus.</p>
+    <h1 class="hm">hello world</h1>
+
+<script src="./js/script.js"></script>
+<script>
+
+    // <>-------- <start button > -----------------// <>-------- < > -----------------// <>-------- > -----------------
+    $("button").click(function () {
+            $("body").css("background-color", "purple");
+            // <>-------- < h1 > -----------------
+            $("h1")
+            .css("display","block")
+            .css("color", "white")
+            .css("font-size", "60px")
+            .css("font-family","impact");
+
+            // <>----------< p >----------
+            $("p")
+            .css("display", "block")
+            .css("color", "white");
+
+            // <>---------------------
+
+            $("body").click(function(){
+                $("button").text("if you have read you can reaload").reload();
+            });
+
+            // <>-------- < hm > -----------------
+            $(".hm").hide();
+           
+        })
+
+        // <>-------- < end buttons  > -----------------// <>-------- <> -----------------// <>-------- <----------------
+
+
+
+
+
+
+</script>
+</html>
